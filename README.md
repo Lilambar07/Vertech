@@ -40,3 +40,21 @@ User profile-
 <img src="https://github.com/its-navneet/VerTech/blob/master/myprofile.jpg" width="250" height="500" />
 
 ## Functionality and Components used
+
+The user interface of our application is made very subtle and easy to use.Following are few of our selection of Kotlin basic concepts to achieve a fairly elevated application :
+**Constraint Layout:** For better performance of the app and to acquire a responsive view we chose this concept which was quite adaptable for different screen sizes. Most of the .xml files of the applications are made using constraint layout.
+**Navigation Component:** To navigate between stations within our app which provides a smooth user experience irrespective of the component used.
+**View Model:** The View Model functionality is used in the ‘Feed’ section of the application as well as in the Todo Projects section of the application. 
+**LiveData:** The Live data functionality is used in the ‘Todo Projects’ section to update the items in the recycler view as well as delete them on click.
+**Recycler View:** This functionality is used in the home page to view daily feed, the chat section as well as in the todo list for making projects.
+**Room database:** The Room database functionality is used to implement the ‘Todo Projects’ section. The items of the recycler view(Project Name, Description and Projects Members) are locally stored in the phone’s File Manager in a folder named App DB.
+**Internet Connectivity:** The application uses Firebase Authentication for Login/Sign up and Firebase Realtime Database for the chat functionality as well as for the uploading a post and retrieving all the post in feed of the user.
+## Demo
+Demo Video
+Registration Page- 
+<img src="https://github.com/its-navneet/VerTech/blob/master/VerTech_Demo.gif" width="280" height="550" />
+## Application link & future scope-
+Currently our app is in the testing phase within our associates and technical clubs.
+You can use our application through the following link(**APK file**)
+https://drive.google.com/file/d/128Pf0oA-7LETtYypuuJBKtUIILvQOylh/view?usp=sharing
+Very soon our application will be launched on Google Play Store and will be functional in our and our adjacent universities. We intend,by the end of the year, most schools and institutions will use our community app to explore, learn and create innovative ideas. We are planning to append a more user-friendly experience and group converse of dedicated domains as well as make use of various APIs to provide the user with innovative project ideas.
